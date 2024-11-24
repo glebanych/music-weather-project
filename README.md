@@ -42,7 +42,7 @@ After registering as a developer at ([https://www.last.fm/api/account/create](ht
 
 ![enter image description here](https://i.imgur.com/4dja3EE.png)
 
-It would be time consuming to manually assign tags to every artist, so I will be using `=WEBSERVICE` function in MS Excel to send API requests to Last.FM. And since I need to use artists names from row “B”, I will use CONCATINATE function in addition to WEBSERVICE. Here’s the final formula to get tags for artist in cell B2: `=WEBSERVICE(CONCATENATE("https://ws.audioscrobbler.com/2.0/?method=artist.gettoptags&artist=",B2,"&api_key=API_KEY"))`
+It would be time consuming to manually assign tags to every artist, so I will be using `=WEBSERVICE` function in MS Excel to send API requests to Last.FM. And since I need to use artists names from column “B”, I will use CONCATINATE function in addition to WEBSERVICE. Here’s the final formula to get tags for artist in cell B2: `=WEBSERVICE(CONCATENATE("https://ws.audioscrobbler.com/2.0/?method=artist.gettoptags&artist=",B2,"&api_key=API_KEY"))`
 
 I will use autofill to make API calls for every row on Sheets 1 and 2.
 
@@ -58,7 +58,7 @@ Now I have all the data I need to proceed with data cleaning.
 
 I will start cleaning data in MS Excel and move on to SQL later since there is a lot of data and Excel is struggling already.
 
-While looking at the table, I noticed some entries are labeled as “Unknown Artist”. I don’t need that so I will use Filter on row B to filter and delete every such entry.
+While looking at the table, I noticed some entries are labeled as “Unknown Artist”. I don’t need that so I will use Filter on column B to filter and delete every such entry.
 
 ![enter image description here](https://i.imgur.com/HHTA86N.png)
 
