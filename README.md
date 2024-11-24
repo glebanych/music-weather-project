@@ -113,7 +113,7 @@ That’s the table I will use for data visualization, so I have to download it f
 
 ## Data visualization
 
-After logging into Google Looker Studio and uploading the final version of dataset, I will first add one line chart, with AVG temp as a metric, genre as a dimension and endTime as a date range dimension.
+After logging into Google Looker Studio and uploading the final version of dataset, I will first add one line chart, with AVG temp as a metric, genre as a dimension and endTime as a date range dimension. I will also add a temperature control slider at the bottom to change its range, if needed.
 
 ![enter image description here](https://i.imgur.com/NeqZDlv.png)
 
@@ -122,7 +122,7 @@ On a second page I will add a table that contains artistName, genre, Record Coun
 
 ![enter image description here](https://i.imgur.com/XNdQpcv.png)
 
-Finally, on a third page I will add 12 pie charts with endTime as a date range, genre as a dimension and Record Count as a metric. I will also sort it by Record Count descending.
+Finally, on a third page I will add 12 pie charts with endTime as a date range, genre as a dimension and Record Count as a metric. I will also sort it by Record Count descending. I will also add an option to exclude any unwanted genre from charts.
 
 ![enter image description here](https://i.imgur.com/A20ZsvE.png)
 
