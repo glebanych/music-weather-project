@@ -1,4 +1,7 @@
-# Weather and music 
+![Text](https://i.imgur.com/pJC09VP.png)
+
+# Sun, Snow and Songs: A Seasonal Soundscape
+## Analyzing corellaction between music listening patterns and weather/seasons
 
 There are multiple studies on how weather conditions influence our interest in certain genres and types of music ([1](https://www.ox.ac.uk/news/2023-05-03-here-comes-sun-new-study-shows-how-uk-weather-conditions-influence-music-success), [2](https://www.psychologytoday.com/us/blog/head-games/201711/when-seasons-change-so-do-musical-preferences-says-science)). Today, I will analyze my own music patterns from past year and how it correlates with weather.
 
