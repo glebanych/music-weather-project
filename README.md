@@ -85,7 +85,7 @@ Finally, I will delete column D and rename it to “genre”. Now I have a good-
 
 ![enter image description here](https://i.imgur.com/jEr50Kx.png)
 
-After capitalizing every cell in column D using `=PROPER()`, it’s time to move onto weather data. After checking the data using filters and conditional formatting, the only thing I have to do is delete unnecessary columns.
+I will also capitalize every cell in column D using `=PROPER()`, it’s time to move onto weather data. After checking the data using filters and conditional formatting, the only thing I have to do is delete unnecessary columns.
 
 ![enter image description here](https://i.imgur.com/MqlCpU4.png)
 
