@@ -2,7 +2,7 @@
 ###### Please note: raw project data is available in repo. Final Google Looker Studio report is located here: https://lookerstudio.google.com/reporting/e4edf5ca-48e8-4a23-b5b0-4a88353bbaf5
 
 # Sun, Snow and Songs: A Seasonal Soundscape
-## Analyzing corellaction between music listening patterns and weather/seasons
+## Analyzing corellaction between music listening patterns and weather/seasons using Microsoft Excel, SQL (Google BigQuery) and Looker Studio.
 
 
 
